@@ -120,7 +120,7 @@ def llama():
                 #   device_map={'': 0}
                   )
     
-    return llama
+    return llama_model
 
 if __name__ == '__main__':
     model = llama()
